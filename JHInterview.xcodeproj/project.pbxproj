@@ -15,6 +15,15 @@
 		EF58535F1F4D8CBF0080C6DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF58535D1F4D8CBF0080C6DB /* LaunchScreen.storyboard */; };
 		EF58536A1F4D8CBF0080C6DB /* JHInterviewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF5853691F4D8CBF0080C6DB /* JHInterviewTests.m */; };
 		EF5853751F4D8CBF0080C6DB /* JHInterviewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF5853741F4D8CBF0080C6DB /* JHInterviewUITests.m */; };
+		EF5853881F4D8E620080C6DB /* StrongWeakDanceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF5853871F4D8E620080C6DB /* StrongWeakDanceViewController.m */; };
+		EF5853951F4EAC740080C6DB /* VCLifeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF5853941F4EAC740080C6DB /* VCLifeViewController.m */; };
+		EF58539B1F4EAFC70080C6DB /* LifeView.m in Sources */ = {isa = PBXBuildFile; fileRef = EF58539A1F4EAFC70080C6DB /* LifeView.m */; };
+		EF58539F1F4EAFE40080C6DB /* VCLifeXibViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF58539D1F4EAFE40080C6DB /* VCLifeXibViewController.m */; };
+		EF5853A01F4EAFE40080C6DB /* VCLifeXibViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF58539E1F4EAFE40080C6DB /* VCLifeXibViewController.xib */; };
+		EF5853A31F4EB5410080C6DB /* JHCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EF5853A21F4EB5410080C6DB /* JHCollectionViewCell.m */; };
+		EF5853AA1F4F0FFD0080C6DB /* GCDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF5853A91F4F0FFD0080C6DB /* GCDViewController.m */; };
+		EF5853AE1F4F14530080C6DB /* AlgorithmViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF5853AD1F4F14530080C6DB /* AlgorithmViewController.m */; };
+		EF5853BE1F512C800080C6DB /* LinkListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF5853BD1F512C800080C6DB /* LinkListViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +60,23 @@
 		EF5853701F4D8CBF0080C6DB /* JHInterviewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JHInterviewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF5853741F4D8CBF0080C6DB /* JHInterviewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JHInterviewUITests.m; sourceTree = "<group>"; };
 		EF5853761F4D8CBF0080C6DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF5853861F4D8E620080C6DB /* StrongWeakDanceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StrongWeakDanceViewController.h; sourceTree = "<group>"; };
+		EF5853871F4D8E620080C6DB /* StrongWeakDanceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StrongWeakDanceViewController.m; sourceTree = "<group>"; };
+		EF5853931F4EAC740080C6DB /* VCLifeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCLifeViewController.h; sourceTree = "<group>"; };
+		EF5853941F4EAC740080C6DB /* VCLifeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCLifeViewController.m; sourceTree = "<group>"; };
+		EF5853991F4EAFC70080C6DB /* LifeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LifeView.h; sourceTree = "<group>"; };
+		EF58539A1F4EAFC70080C6DB /* LifeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LifeView.m; sourceTree = "<group>"; };
+		EF58539C1F4EAFE40080C6DB /* VCLifeXibViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCLifeXibViewController.h; sourceTree = "<group>"; };
+		EF58539D1F4EAFE40080C6DB /* VCLifeXibViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCLifeXibViewController.m; sourceTree = "<group>"; };
+		EF58539E1F4EAFE40080C6DB /* VCLifeXibViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VCLifeXibViewController.xib; sourceTree = "<group>"; };
+		EF5853A11F4EB5410080C6DB /* JHCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHCollectionViewCell.h; sourceTree = "<group>"; };
+		EF5853A21F4EB5410080C6DB /* JHCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHCollectionViewCell.m; sourceTree = "<group>"; };
+		EF5853A81F4F0FFD0080C6DB /* GCDViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDViewController.h; sourceTree = "<group>"; };
+		EF5853A91F4F0FFD0080C6DB /* GCDViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDViewController.m; sourceTree = "<group>"; };
+		EF5853AC1F4F14530080C6DB /* AlgorithmViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlgorithmViewController.h; sourceTree = "<group>"; };
+		EF5853AD1F4F14530080C6DB /* AlgorithmViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlgorithmViewController.m; sourceTree = "<group>"; };
+		EF5853BC1F512C800080C6DB /* LinkListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinkListViewController.h; sourceTree = "<group>"; };
+		EF5853BD1F512C800080C6DB /* LinkListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LinkListViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +131,12 @@
 				EF5853531F4D8CBF0080C6DB /* AppDelegate.m */,
 				EF5853551F4D8CBF0080C6DB /* ViewController.h */,
 				EF5853561F4D8CBF0080C6DB /* ViewController.m */,
+				EF5853A11F4EB5410080C6DB /* JHCollectionViewCell.h */,
+				EF5853A21F4EB5410080C6DB /* JHCollectionViewCell.m */,
+				EF5853AB1F4F14180080C6DB /* 算法 */,
+				EF5853921F4EAB540080C6DB /* ViewController生命周期 */,
+				EF5853891F4D8E750080C6DB /* GCD */,
+				EF5853821F4D8CD80080C6DB /* Block */,
 				EF5853581F4D8CBF0080C6DB /* Main.storyboard */,
 				EF58535B1F4D8CBF0080C6DB /* Assets.xcassets */,
 				EF58535D1F4D8CBF0080C6DB /* LaunchScreen.storyboard */,
@@ -138,6 +170,49 @@
 				EF5853761F4D8CBF0080C6DB /* Info.plist */,
 			);
 			path = JHInterviewUITests;
+			sourceTree = "<group>";
+		};
+		EF5853821F4D8CD80080C6DB /* Block */ = {
+			isa = PBXGroup;
+			children = (
+				EF5853861F4D8E620080C6DB /* StrongWeakDanceViewController.h */,
+				EF5853871F4D8E620080C6DB /* StrongWeakDanceViewController.m */,
+			);
+			name = Block;
+			sourceTree = "<group>";
+		};
+		EF5853891F4D8E750080C6DB /* GCD */ = {
+			isa = PBXGroup;
+			children = (
+				EF5853A81F4F0FFD0080C6DB /* GCDViewController.h */,
+				EF5853A91F4F0FFD0080C6DB /* GCDViewController.m */,
+			);
+			name = GCD;
+			sourceTree = "<group>";
+		};
+		EF5853921F4EAB540080C6DB /* ViewController生命周期 */ = {
+			isa = PBXGroup;
+			children = (
+				EF5853931F4EAC740080C6DB /* VCLifeViewController.h */,
+				EF5853941F4EAC740080C6DB /* VCLifeViewController.m */,
+				EF5853991F4EAFC70080C6DB /* LifeView.h */,
+				EF58539A1F4EAFC70080C6DB /* LifeView.m */,
+				EF58539C1F4EAFE40080C6DB /* VCLifeXibViewController.h */,
+				EF58539D1F4EAFE40080C6DB /* VCLifeXibViewController.m */,
+				EF58539E1F4EAFE40080C6DB /* VCLifeXibViewController.xib */,
+			);
+			name = "ViewController生命周期";
+			sourceTree = "<group>";
+		};
+		EF5853AB1F4F14180080C6DB /* 算法 */ = {
+			isa = PBXGroup;
+			children = (
+				EF5853AC1F4F14530080C6DB /* AlgorithmViewController.h */,
+				EF5853AD1F4F14530080C6DB /* AlgorithmViewController.m */,
+				EF5853BC1F512C800080C6DB /* LinkListViewController.h */,
+				EF5853BD1F512C800080C6DB /* LinkListViewController.m */,
+			);
+			name = "算法";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -252,6 +327,7 @@
 				EF58535F1F4D8CBF0080C6DB /* LaunchScreen.storyboard in Resources */,
 				EF58535C1F4D8CBF0080C6DB /* Assets.xcassets in Resources */,
 				EF58535A1F4D8CBF0080C6DB /* Main.storyboard in Resources */,
+				EF5853A01F4EAFE40080C6DB /* VCLifeXibViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,8 +353,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF5853571F4D8CBF0080C6DB /* ViewController.m in Sources */,
+				EF5853AA1F4F0FFD0080C6DB /* GCDViewController.m in Sources */,
+				EF5853881F4D8E620080C6DB /* StrongWeakDanceViewController.m in Sources */,
+				EF5853A31F4EB5410080C6DB /* JHCollectionViewCell.m in Sources */,
+				EF58539B1F4EAFC70080C6DB /* LifeView.m in Sources */,
+				EF5853BE1F512C800080C6DB /* LinkListViewController.m in Sources */,
 				EF5853541F4D8CBF0080C6DB /* AppDelegate.m in Sources */,
+				EF5853AE1F4F14530080C6DB /* AlgorithmViewController.m in Sources */,
 				EF5853511F4D8CBF0080C6DB /* main.m in Sources */,
+				EF5853951F4EAC740080C6DB /* VCLifeViewController.m in Sources */,
+				EF58539F1F4EAFE40080C6DB /* VCLifeXibViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
