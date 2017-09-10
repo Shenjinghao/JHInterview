@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A8C6E6171F654E8700030008 /* JHCopyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8C6E6161F654E8700030008 /* JHCopyViewController.m */; };
+		A8C6E61A1F6564DA00030008 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = A8C6E6191F6564DA00030008 /* Person.m */; };
+		A8C6E61D1F6566A600030008 /* Person1.m in Sources */ = {isa = PBXBuildFile; fileRef = A8C6E61C1F6566A600030008 /* Person1.m */; };
+		A8C6E6211F658F8D00030008 /* LoadClassA.m in Sources */ = {isa = PBXBuildFile; fileRef = A8C6E6201F658F8D00030008 /* LoadClassA.m */; };
+		A8C6E6241F658F9A00030008 /* LoadClassB.m in Sources */ = {isa = PBXBuildFile; fileRef = A8C6E6231F658F9A00030008 /* LoadClassB.m */; };
+		A8C6E6271F65907800030008 /* LoadClassA+LoadClassACategory.m in Sources */ = {isa = PBXBuildFile; fileRef = A8C6E6261F65907800030008 /* LoadClassA+LoadClassACategory.m */; };
+		A8C6E62A1F65951700030008 /* LoadBaseClass.m in Sources */ = {isa = PBXBuildFile; fileRef = A8C6E6291F65951700030008 /* LoadBaseClass.m */; };
+		A8C6E62F1F65969E00030008 /* InitializeBaseClass.m in Sources */ = {isa = PBXBuildFile; fileRef = A8C6E62E1F65969E00030008 /* InitializeBaseClass.m */; };
+		A8C6E6321F6596FF00030008 /* InitializeClassA.m in Sources */ = {isa = PBXBuildFile; fileRef = A8C6E6311F6596FF00030008 /* InitializeClassA.m */; };
 		EF5853511F4D8CBF0080C6DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF5853501F4D8CBF0080C6DB /* main.m */; };
 		EF5853541F4D8CBF0080C6DB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF5853531F4D8CBF0080C6DB /* AppDelegate.m */; };
 		EF5853571F4D8CBF0080C6DB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF5853561F4D8CBF0080C6DB /* ViewController.m */; };
@@ -44,6 +53,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A8C6E6151F654E8700030008 /* JHCopyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHCopyViewController.h; sourceTree = "<group>"; };
+		A8C6E6161F654E8700030008 /* JHCopyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHCopyViewController.m; sourceTree = "<group>"; };
+		A8C6E6181F6564DA00030008 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		A8C6E6191F6564DA00030008 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		A8C6E61B1F6566A600030008 /* Person1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person1.h; sourceTree = "<group>"; };
+		A8C6E61C1F6566A600030008 /* Person1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person1.m; sourceTree = "<group>"; };
+		A8C6E61F1F658F8D00030008 /* LoadClassA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadClassA.h; sourceTree = "<group>"; };
+		A8C6E6201F658F8D00030008 /* LoadClassA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadClassA.m; sourceTree = "<group>"; };
+		A8C6E6221F658F9A00030008 /* LoadClassB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadClassB.h; sourceTree = "<group>"; };
+		A8C6E6231F658F9A00030008 /* LoadClassB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadClassB.m; sourceTree = "<group>"; };
+		A8C6E6251F65907800030008 /* LoadClassA+LoadClassACategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LoadClassA+LoadClassACategory.h"; sourceTree = "<group>"; };
+		A8C6E6261F65907800030008 /* LoadClassA+LoadClassACategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "LoadClassA+LoadClassACategory.m"; sourceTree = "<group>"; };
+		A8C6E6281F65951700030008 /* LoadBaseClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadBaseClass.h; sourceTree = "<group>"; };
+		A8C6E6291F65951700030008 /* LoadBaseClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadBaseClass.m; sourceTree = "<group>"; };
+		A8C6E62D1F65969E00030008 /* InitializeBaseClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InitializeBaseClass.h; sourceTree = "<group>"; };
+		A8C6E62E1F65969E00030008 /* InitializeBaseClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InitializeBaseClass.m; sourceTree = "<group>"; };
+		A8C6E6301F6596FF00030008 /* InitializeClassA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InitializeClassA.h; sourceTree = "<group>"; };
+		A8C6E6311F6596FF00030008 /* InitializeClassA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InitializeClassA.m; sourceTree = "<group>"; };
 		EF58534C1F4D8CBF0080C6DB /* JHInterview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JHInterview.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF5853501F4D8CBF0080C6DB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EF5853521F4D8CBF0080C6DB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -104,6 +131,54 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A8C6E6141F654E1D00030008 /* copy的坑 */ = {
+			isa = PBXGroup;
+			children = (
+				A8C6E6151F654E8700030008 /* JHCopyViewController.h */,
+				A8C6E6161F654E8700030008 /* JHCopyViewController.m */,
+				A8C6E6181F6564DA00030008 /* Person.h */,
+				A8C6E6191F6564DA00030008 /* Person.m */,
+				A8C6E61B1F6566A600030008 /* Person1.h */,
+				A8C6E61C1F6566A600030008 /* Person1.m */,
+			);
+			name = "copy的坑";
+			sourceTree = "<group>";
+		};
+		A8C6E61E1F65820700030008 /* load和initialize */ = {
+			isa = PBXGroup;
+			children = (
+				A8C6E62C1F65966000030008 /* initialize */,
+				A8C6E62B1F65964C00030008 /* load */,
+			);
+			name = "load和initialize";
+			sourceTree = "<group>";
+		};
+		A8C6E62B1F65964C00030008 /* load */ = {
+			isa = PBXGroup;
+			children = (
+				A8C6E6281F65951700030008 /* LoadBaseClass.h */,
+				A8C6E6291F65951700030008 /* LoadBaseClass.m */,
+				A8C6E61F1F658F8D00030008 /* LoadClassA.h */,
+				A8C6E6201F658F8D00030008 /* LoadClassA.m */,
+				A8C6E6251F65907800030008 /* LoadClassA+LoadClassACategory.h */,
+				A8C6E6261F65907800030008 /* LoadClassA+LoadClassACategory.m */,
+				A8C6E6221F658F9A00030008 /* LoadClassB.h */,
+				A8C6E6231F658F9A00030008 /* LoadClassB.m */,
+			);
+			name = load;
+			sourceTree = "<group>";
+		};
+		A8C6E62C1F65966000030008 /* initialize */ = {
+			isa = PBXGroup;
+			children = (
+				A8C6E62D1F65969E00030008 /* InitializeBaseClass.h */,
+				A8C6E62E1F65969E00030008 /* InitializeBaseClass.m */,
+				A8C6E6301F6596FF00030008 /* InitializeClassA.h */,
+				A8C6E6311F6596FF00030008 /* InitializeClassA.m */,
+			);
+			name = initialize;
+			sourceTree = "<group>";
+		};
 		EF5853431F4D8CBF0080C6DB = {
 			isa = PBXGroup;
 			children = (
@@ -133,6 +208,8 @@
 				EF5853561F4D8CBF0080C6DB /* ViewController.m */,
 				EF5853A11F4EB5410080C6DB /* JHCollectionViewCell.h */,
 				EF5853A21F4EB5410080C6DB /* JHCollectionViewCell.m */,
+				A8C6E61E1F65820700030008 /* load和initialize */,
+				A8C6E6141F654E1D00030008 /* copy的坑 */,
 				EF5853AB1F4F14180080C6DB /* 算法 */,
 				EF5853921F4EAB540080C6DB /* ViewController生命周期 */,
 				EF5853891F4D8E750080C6DB /* GCD */,
@@ -282,7 +359,6 @@
 				TargetAttributes = {
 					EF58534B1F4D8CBF0080C6DB = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = G5SMWZ82L9;
 						ProvisioningStyle = Automatic;
 					};
 					EF5853641F4D8CBF0080C6DB = {
@@ -352,17 +428,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8C6E6211F658F8D00030008 /* LoadClassA.m in Sources */,
 				EF5853571F4D8CBF0080C6DB /* ViewController.m in Sources */,
 				EF5853AA1F4F0FFD0080C6DB /* GCDViewController.m in Sources */,
 				EF5853881F4D8E620080C6DB /* StrongWeakDanceViewController.m in Sources */,
 				EF5853A31F4EB5410080C6DB /* JHCollectionViewCell.m in Sources */,
 				EF58539B1F4EAFC70080C6DB /* LifeView.m in Sources */,
 				EF5853BE1F512C800080C6DB /* LinkListViewController.m in Sources */,
+				A8C6E6271F65907800030008 /* LoadClassA+LoadClassACategory.m in Sources */,
 				EF5853541F4D8CBF0080C6DB /* AppDelegate.m in Sources */,
+				A8C6E62A1F65951700030008 /* LoadBaseClass.m in Sources */,
 				EF5853AE1F4F14530080C6DB /* AlgorithmViewController.m in Sources */,
 				EF5853511F4D8CBF0080C6DB /* main.m in Sources */,
+				A8C6E61A1F6564DA00030008 /* Person.m in Sources */,
+				A8C6E62F1F65969E00030008 /* InitializeBaseClass.m in Sources */,
+				A8C6E6171F654E8700030008 /* JHCopyViewController.m in Sources */,
 				EF5853951F4EAC740080C6DB /* VCLifeViewController.m in Sources */,
+				A8C6E61D1F6566A600030008 /* Person1.m in Sources */,
 				EF58539F1F4EAFE40080C6DB /* VCLifeXibViewController.m in Sources */,
+				A8C6E6321F6596FF00030008 /* InitializeClassA.m in Sources */,
+				A8C6E6241F658F9A00030008 /* LoadClassB.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -513,8 +598,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = G5SMWZ82L9;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = JHInterview/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jinghao.JHInterview;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -525,8 +611,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = G5SMWZ82L9;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = JHInterview/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jinghao.JHInterview;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -602,6 +689,7 @@
 				EF58537B1F4D8CBF0080C6DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EF58537C1F4D8CBF0080C6DB /* Build configuration list for PBXNativeTarget "JHInterviewTests" */ = {
 			isa = XCConfigurationList;
@@ -610,6 +698,7 @@
 				EF58537E1F4D8CBF0080C6DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EF58537F1F4D8CBF0080C6DB /* Build configuration list for PBXNativeTarget "JHInterviewUITests" */ = {
 			isa = XCConfigurationList;
@@ -618,6 +707,7 @@
 				EF5853811F4D8CBF0080C6DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

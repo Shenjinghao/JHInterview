@@ -13,6 +13,10 @@
 #import "GCDViewController.h"
 #import "AlgorithmViewController.h"
 #import "LinkListViewController.h"
+#import "JHCopyViewController.h"
+#import "LoadClassA.h"
+#import "InitializeBaseClass.h"
+#import "InitializeClassA.h"
 
 @interface ViewController ()<UICollectionViewDelegate,UICollectionViewDataSource>
 
@@ -31,7 +35,7 @@ static NSString *const header = @"collectionHeader";
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
     
-    self.dataArray = @[@"VC的生命周期", @"Block", @"GCD", @"算法", @"算法-链表"];
+    self.dataArray = @[@"VC的生命周期", @"Block", @"GCD", @"算法", @"算法-链表",@"copy的坑",@"load",@"initialize"];
     
     [self createCollectionView];
     
@@ -115,7 +119,17 @@ static NSString *const header = @"collectionHeader";
         }
             break;
         case 5: {
-//            JHDecoratorViewController *controller = [[JHDecoratorViewController alloc] init];
+            JHCopyViewController *controller = [[JHCopyViewController alloc] init];
+            [self.navigationController pushViewController:controller animated:YES];
+        }
+            break;
+        case 6: {
+            LoadClassA *controller = [[LoadClassA alloc] init];
+//            [self.navigationController pushViewController:controller animated:YES];
+        }
+            break;
+        case 7: {
+            InitializeClassA *controller = [[InitializeClassA alloc] init];
 //            [self.navigationController pushViewController:controller animated:YES];
         }
             break;
