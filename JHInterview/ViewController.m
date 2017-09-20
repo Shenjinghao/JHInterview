@@ -17,6 +17,10 @@
 #import "LoadClassA.h"
 #import "InitializeBaseClass.h"
 #import "InitializeClassA.h"
+#import "MethodChainingViewController.h"
+#import "JHEncryptionViewController.h"
+#import "OtherViewController.h"
+#import "NetworkingTestViewController.h"
 
 @interface ViewController ()<UICollectionViewDelegate,UICollectionViewDataSource>
 
@@ -35,13 +39,14 @@ static NSString *const header = @"collectionHeader";
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
     
-    self.dataArray = @[@"VC的生命周期", @"Block", @"GCD", @"算法", @"算法-链表",@"copy的坑",@"load",@"initialize"];
+    self.dataArray = @[@"VC的生命周期", @"Block", @"GCD", @"算法", @"算法-链表",@"copy的坑",@"load",@"initialize",@"链式编程",@"加密",@"网略请求",@"其他"];
     
     [self createCollectionView];
     
 }
 
 - (void)createCollectionView {
+    
     //自定义流水布局
     UICollectionViewFlowLayout *collectionFlowLayout = [[UICollectionViewFlowLayout alloc] init];
     //滑动方向
@@ -131,6 +136,26 @@ static NSString *const header = @"collectionHeader";
         case 7: {
             InitializeClassA *controller = [[InitializeClassA alloc] init];
 //            [self.navigationController pushViewController:controller animated:YES];
+        }
+            break;
+        case 8: {
+            MethodChainingViewController *controller = [[MethodChainingViewController alloc] init];
+            [self.navigationController pushViewController:controller animated:YES];
+        }
+            break;
+        case 9: {
+            JHEncryptionViewController *controller = [[JHEncryptionViewController alloc] init];
+            [self.navigationController pushViewController:controller animated:YES];
+        }
+            break;
+        case 10: {
+            NetworkingTestViewController *controller = [[NetworkingTestViewController alloc] init];
+            [self.navigationController pushViewController:controller animated:YES];
+        }
+            break;
+        case 100: {
+            OtherViewController *controller = [[OtherViewController alloc] init];
+            [self.navigationController pushViewController:controller animated:YES];
         }
             break;
         default:

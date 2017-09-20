@@ -25,9 +25,7 @@ int num1 = sizeof(a1)/sizeof(char);
     
     printf("%lu,%lu,%lu %ld %d\n",sizeof(array),sizeof(int),sizeof(array)/sizeof(int),array,num);
     printf("%lu,%lu,%lu %ld %d\n",sizeof(a1),sizeof(char),sizeof(a1)/sizeof(char),a1,num1);
-    bubbleSort(array,num);
-    ascendingSort(array, num);
-    quickSort(array, 0, 9);
+    
     
     node *head = createLinkList(7);
     
@@ -45,10 +43,6 @@ int num1 = sizeof(a1)/sizeof(char);
     
     free(head);
     
-    Exchange(5, 8);
-    
-//    reverseSentence("hello world");//会crash
-    [self reverseStr];
 }
 
 + (void)initialize {
@@ -84,17 +78,10 @@ int num1 = sizeof(a1)/sizeof(char);
     printf("指针的相关问题  str = %s *str = %P,&str = %d  stt++ = %s *str++ = %P",str,*str,&str,str++ ,*str++);
 }
 
-+ (void)reverseStr {
-    char string[] = {
-        " hello world "
-    };
-    int length = strlen(string);
-    reverseAnother(string,length);
-    printf("\n字符串翻转后的字符串   %s\n",string);
-}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
     // Do any additional setup after loading the view.
 }
 
@@ -136,178 +123,6 @@ int num1 = sizeof(a1)/sizeof(char);
  %j:      修改说明在%j长度以下d,i,o,u,x,X适用于某一指定类型或一定尺寸的整数类型的转换的参数。
  */
 
-void printfLog(int a[], int num,char *str) {
-    printf("\n %s \n",str);
-    for(int i = 0; i < num; i++) {
-        
-        printf(" %d", array[i]);
-        
-        if(i == num-1) {
-            
-            printf("\n");
-            
-        }
-        
-        else {
-            
-            printf(" ");
-            
-        }
-        
-    }
-}
-
-//冒泡
-void bubbleSort(int array[], int num) {
-    
-    for(int i = 0; i < num-1; i++) {
-        
-        for(int j = 0; j < num - 1 - i; j++) {
-            
-            if(array[j] < array[j+1]) {
-                
-                int tmp = array[j];
-                
-                array[j] = array[j+1];
-                
-                array[j+1] = tmp;
-                
-            }
-            
-        }
-    }
-    printfLog(array,num,"冒泡");
-}
-
-void ascendingSort(int a[],int n)
-{
-    
-    int i, j, index;
-    
-    for(i = 0; i < n - 1; i++) {
-        
-        index = i;
-        
-        for(j = i + 1; j < n; j++) {
-            
-            if(a[index] > a[j]) {
-                
-                index = j;
-                
-            }
-            
-        }
-        
-        if(index != i) {
-            
-            int temp = a[i];
-            
-            a[i] = a[index];
-            
-            a[index] = temp;
-            
-        }
-        
-    }
-    printfLog(array, num, "选择");
-    
-}
-
-void quickSort(int a[], int left, int right) {
-    
-    if(left >= right) {
-        
-        return ;
-    }
-    
-    int i = left;
-    
-    int j = right;
-    
-    int key = a[left];
-    
-    while (i < j) {
-        
-        while (i < j && key <= a[j]) {
-            
-            j--;
-            
-        }
-        
-        a[i] = a[j];
-        
-        while (i < j && key >= a[i]) {
-            
-            i++;
-            
-        }
-        
-        a[j] = a[i];
-        
-    }
-    
-    a[i] = key;
-    
-    quickSort(a, left, i-1);
-    
-    quickSort(a, i+1, right);
-    
-    printfLog(array, num, "快排");
-}
-
-//二分查找算法
-int bsearchWithoutRecursion(int array[],int low,int high,int target) {
-    
-    while(low <= high) {
-        
-        int mid = (low + high) / 2;
-        
-        if(array[mid] > target)
-            
-            high = mid - 1;
-        
-        else if(array[mid] < target)
-            
-            low = mid + 1;
-        
-        else	//findthetarget
-            
-            return mid;
-        
-    }
-    
-    //the array does not contain the target
-    
-    return -1;
-    
-}
-
-//递归实现
-
-int binary_search(const int arr[],int low,int high,int key)
-{
-    
-    int mid=low + (high - low) / 2;
-    
-    if(low > high)
-        
-        return -1;
-    
-    else{
-        
-        if(arr[mid] == key)
-            
-            return mid;
-        
-        else if(arr[mid] > key)
-            
-            return binary_search(arr, low, mid-1, key);
-        
-        else
-            return binary_search(arr, mid+1, high, key);
-        
-    }
-}
 
 
 //如何实现链表翻转（链表逆序）？
@@ -456,54 +271,4 @@ void reverseSentence(char *pData) {
     printf("%s",pData);
     
 }
-void doReverse(char *string,int left,int right){
-    if(string==NULL || left>=right)return;
-    while(left<right){
-        char temp = string[right];
-        string[right]=string[left];
-        string[left]=temp;
-        left++;
-        right--;
-    }
-}
-
-void reverseAnother(char *string,int len){
-    if(string==NULL || len<=0)return ;
-    //先全部翻转
-    doReverse(string,0,len-1);
-    //" dlrow olleh "
-    
-    //wordend找到下一个位置的空格，begin是记录第一个空格后的位置
-    int wordBegin=0,wordNext=0;
-    
-    while(string[wordBegin] != '\0'){
-        
-        if(string[wordBegin] == ' '){
-            
-            wordNext++;
-            wordBegin++;
-        }else if(string[wordNext] == ' ' || string[wordNext]=='\0'){
-            //wordnext的前一位是空格
-            doReverse(string,wordBegin,--wordNext);
-            //讲begin设为wordnext位置的（空格）下一位
-            wordBegin = ++wordNext;
-        }else{
-            wordNext++;
-        }
-    }
-    return ;
-}
-
-
-//不用新的变量，交换两个数字
-void Exchange(int num1, int num2) {
-    if (num1 == num2) {
-        return;
-    }
-    num1 = num1 + num2;
-    num2 = num1 - num2;
-    num1 = num1 - num2;
-    printf("交换后的 num1 = %d num2 = %d  \n",num1,num2);
-}
-
 @end

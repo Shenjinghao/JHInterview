@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A80013081F6BFE2F007572CD /* NetworkingTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A80013071F6BFE2F007572CD /* NetworkingTestViewController.m */; };
+		A8237C4C1F6934C500D7527B /* JHEncryptionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8237C4B1F6934C500D7527B /* JHEncryptionViewController.m */; };
+		A8237C4F1F69385B00D7527B /* OtherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8237C4E1F69385B00D7527B /* OtherViewController.m */; };
+		A8237C531F693E5C00D7527B /* JHMD5Encrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = A8237C521F693E5C00D7527B /* JHMD5Encrypt.m */; };
+		A8237C561F69430D00D7527B /* JHAESEncrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = A8237C551F69430D00D7527B /* JHAESEncrypt.m */; };
+		A8237C5C1F696C1200D7527B /* JHBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = A8237C5B1F696C1200D7527B /* JHBase64.m */; };
 		A8C6E6171F654E8700030008 /* JHCopyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8C6E6161F654E8700030008 /* JHCopyViewController.m */; };
 		A8C6E61A1F6564DA00030008 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = A8C6E6191F6564DA00030008 /* Person.m */; };
 		A8C6E61D1F6566A600030008 /* Person1.m in Sources */ = {isa = PBXBuildFile; fileRef = A8C6E61C1F6566A600030008 /* Person1.m */; };
@@ -16,6 +22,12 @@
 		A8C6E62A1F65951700030008 /* LoadBaseClass.m in Sources */ = {isa = PBXBuildFile; fileRef = A8C6E6291F65951700030008 /* LoadBaseClass.m */; };
 		A8C6E62F1F65969E00030008 /* InitializeBaseClass.m in Sources */ = {isa = PBXBuildFile; fileRef = A8C6E62E1F65969E00030008 /* InitializeBaseClass.m */; };
 		A8C6E6321F6596FF00030008 /* InitializeClassA.m in Sources */ = {isa = PBXBuildFile; fileRef = A8C6E6311F6596FF00030008 /* InitializeClassA.m */; };
+		A8C6E6391F66C85800030008 /* NSObject+Caculate.m in Sources */ = {isa = PBXBuildFile; fileRef = A8C6E6381F66C85800030008 /* NSObject+Caculate.m */; };
+		A8C6E63C1F66C88B00030008 /* CaculateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A8C6E63B1F66C88B00030008 /* CaculateManager.m */; };
+		A8C6E63F1F66D09800030008 /* MethodChainingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8C6E63E1F66D09800030008 /* MethodChainingViewController.m */; };
+		A8C6E6421F66D63B00030008 /* ExchangeNumWithoutTemp.m in Sources */ = {isa = PBXBuildFile; fileRef = A8C6E6411F66D63B00030008 /* ExchangeNumWithoutTemp.m */; };
+		A8C6E6451F66D79600030008 /* ReverseString.m in Sources */ = {isa = PBXBuildFile; fileRef = A8C6E6441F66D79600030008 /* ReverseString.m */; };
+		A8C6E6481F66D90600030008 /* SortDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = A8C6E6471F66D90600030008 /* SortDemo.m */; };
 		EF5853511F4D8CBF0080C6DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF5853501F4D8CBF0080C6DB /* main.m */; };
 		EF5853541F4D8CBF0080C6DB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF5853531F4D8CBF0080C6DB /* AppDelegate.m */; };
 		EF5853571F4D8CBF0080C6DB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF5853561F4D8CBF0080C6DB /* ViewController.m */; };
@@ -53,6 +65,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A80013061F6BFE2F007572CD /* NetworkingTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkingTestViewController.h; sourceTree = "<group>"; };
+		A80013071F6BFE2F007572CD /* NetworkingTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkingTestViewController.m; sourceTree = "<group>"; };
+		A8237C4A1F6934C500D7527B /* JHEncryptionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHEncryptionViewController.h; sourceTree = "<group>"; };
+		A8237C4B1F6934C500D7527B /* JHEncryptionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHEncryptionViewController.m; sourceTree = "<group>"; };
+		A8237C4D1F69385B00D7527B /* OtherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OtherViewController.h; sourceTree = "<group>"; };
+		A8237C4E1F69385B00D7527B /* OtherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OtherViewController.m; sourceTree = "<group>"; };
+		A8237C511F693E5C00D7527B /* JHMD5Encrypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHMD5Encrypt.h; sourceTree = "<group>"; };
+		A8237C521F693E5C00D7527B /* JHMD5Encrypt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHMD5Encrypt.m; sourceTree = "<group>"; };
+		A8237C541F69430D00D7527B /* JHAESEncrypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHAESEncrypt.h; sourceTree = "<group>"; };
+		A8237C551F69430D00D7527B /* JHAESEncrypt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHAESEncrypt.m; sourceTree = "<group>"; };
+		A8237C5A1F696C1200D7527B /* JHBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHBase64.h; sourceTree = "<group>"; };
+		A8237C5B1F696C1200D7527B /* JHBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHBase64.m; sourceTree = "<group>"; };
 		A8C6E6151F654E8700030008 /* JHCopyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHCopyViewController.h; sourceTree = "<group>"; };
 		A8C6E6161F654E8700030008 /* JHCopyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHCopyViewController.m; sourceTree = "<group>"; };
 		A8C6E6181F6564DA00030008 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
@@ -71,6 +95,18 @@
 		A8C6E62E1F65969E00030008 /* InitializeBaseClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InitializeBaseClass.m; sourceTree = "<group>"; };
 		A8C6E6301F6596FF00030008 /* InitializeClassA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InitializeClassA.h; sourceTree = "<group>"; };
 		A8C6E6311F6596FF00030008 /* InitializeClassA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InitializeClassA.m; sourceTree = "<group>"; };
+		A8C6E6371F66C85800030008 /* NSObject+Caculate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Caculate.h"; sourceTree = "<group>"; };
+		A8C6E6381F66C85800030008 /* NSObject+Caculate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Caculate.m"; sourceTree = "<group>"; };
+		A8C6E63A1F66C88B00030008 /* CaculateManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaculateManager.h; sourceTree = "<group>"; };
+		A8C6E63B1F66C88B00030008 /* CaculateManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CaculateManager.m; sourceTree = "<group>"; };
+		A8C6E63D1F66D09800030008 /* MethodChainingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MethodChainingViewController.h; sourceTree = "<group>"; };
+		A8C6E63E1F66D09800030008 /* MethodChainingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MethodChainingViewController.m; sourceTree = "<group>"; };
+		A8C6E6401F66D63B00030008 /* ExchangeNumWithoutTemp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExchangeNumWithoutTemp.h; sourceTree = "<group>"; };
+		A8C6E6411F66D63B00030008 /* ExchangeNumWithoutTemp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExchangeNumWithoutTemp.m; sourceTree = "<group>"; };
+		A8C6E6431F66D79600030008 /* ReverseString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReverseString.h; sourceTree = "<group>"; };
+		A8C6E6441F66D79600030008 /* ReverseString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReverseString.m; sourceTree = "<group>"; };
+		A8C6E6461F66D90600030008 /* SortDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SortDemo.h; sourceTree = "<group>"; };
+		A8C6E6471F66D90600030008 /* SortDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SortDemo.m; sourceTree = "<group>"; };
 		EF58534C1F4D8CBF0080C6DB /* JHInterview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JHInterview.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF5853501F4D8CBF0080C6DB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EF5853521F4D8CBF0080C6DB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -131,6 +167,47 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A80013051F6BF968007572CD /* 基本的网络请求 */ = {
+			isa = PBXGroup;
+			children = (
+				A80013061F6BFE2F007572CD /* NetworkingTestViewController.h */,
+				A80013071F6BFE2F007572CD /* NetworkingTestViewController.m */,
+			);
+			name = "基本的网络请求";
+			sourceTree = "<group>";
+		};
+		A82224AF1F6B801700026324 /* JHNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				A80013051F6BF968007572CD /* 基本的网络请求 */,
+			);
+			name = JHNetworking;
+			sourceTree = "<group>";
+		};
+		A8237C481F69347200D7527B /* 加密 */ = {
+			isa = PBXGroup;
+			children = (
+				A8237C4A1F6934C500D7527B /* JHEncryptionViewController.h */,
+				A8237C4B1F6934C500D7527B /* JHEncryptionViewController.m */,
+				A8237C511F693E5C00D7527B /* JHMD5Encrypt.h */,
+				A8237C521F693E5C00D7527B /* JHMD5Encrypt.m */,
+				A8237C541F69430D00D7527B /* JHAESEncrypt.h */,
+				A8237C551F69430D00D7527B /* JHAESEncrypt.m */,
+				A8237C5A1F696C1200D7527B /* JHBase64.h */,
+				A8237C5B1F696C1200D7527B /* JHBase64.m */,
+			);
+			name = "加密";
+			sourceTree = "<group>";
+		};
+		A8237C501F69385F00D7527B /* 其他知识点 */ = {
+			isa = PBXGroup;
+			children = (
+				A8237C4D1F69385B00D7527B /* OtherViewController.h */,
+				A8237C4E1F69385B00D7527B /* OtherViewController.m */,
+			);
+			name = "其他知识点";
+			sourceTree = "<group>";
+		};
 		A8C6E6141F654E1D00030008 /* copy的坑 */ = {
 			isa = PBXGroup;
 			children = (
@@ -179,6 +256,19 @@
 			name = initialize;
 			sourceTree = "<group>";
 		};
+		A8C6E6331F66C7B200030008 /* 链式编程 */ = {
+			isa = PBXGroup;
+			children = (
+				A8C6E6371F66C85800030008 /* NSObject+Caculate.h */,
+				A8C6E6381F66C85800030008 /* NSObject+Caculate.m */,
+				A8C6E63A1F66C88B00030008 /* CaculateManager.h */,
+				A8C6E63B1F66C88B00030008 /* CaculateManager.m */,
+				A8C6E63D1F66D09800030008 /* MethodChainingViewController.h */,
+				A8C6E63E1F66D09800030008 /* MethodChainingViewController.m */,
+			);
+			name = "链式编程";
+			sourceTree = "<group>";
+		};
 		EF5853431F4D8CBF0080C6DB = {
 			isa = PBXGroup;
 			children = (
@@ -208,6 +298,10 @@
 				EF5853561F4D8CBF0080C6DB /* ViewController.m */,
 				EF5853A11F4EB5410080C6DB /* JHCollectionViewCell.h */,
 				EF5853A21F4EB5410080C6DB /* JHCollectionViewCell.m */,
+				A82224AF1F6B801700026324 /* JHNetworking */,
+				A8237C501F69385F00D7527B /* 其他知识点 */,
+				A8237C481F69347200D7527B /* 加密 */,
+				A8C6E6331F66C7B200030008 /* 链式编程 */,
 				A8C6E61E1F65820700030008 /* load和initialize */,
 				A8C6E6141F654E1D00030008 /* copy的坑 */,
 				EF5853AB1F4F14180080C6DB /* 算法 */,
@@ -288,6 +382,12 @@
 				EF5853AD1F4F14530080C6DB /* AlgorithmViewController.m */,
 				EF5853BC1F512C800080C6DB /* LinkListViewController.h */,
 				EF5853BD1F512C800080C6DB /* LinkListViewController.m */,
+				A8C6E6401F66D63B00030008 /* ExchangeNumWithoutTemp.h */,
+				A8C6E6411F66D63B00030008 /* ExchangeNumWithoutTemp.m */,
+				A8C6E6431F66D79600030008 /* ReverseString.h */,
+				A8C6E6441F66D79600030008 /* ReverseString.m */,
+				A8C6E6461F66D90600030008 /* SortDemo.h */,
+				A8C6E6471F66D90600030008 /* SortDemo.m */,
 			);
 			name = "算法";
 			sourceTree = "<group>";
@@ -428,23 +528,35 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A80013081F6BFE2F007572CD /* NetworkingTestViewController.m in Sources */,
+				A8C6E6451F66D79600030008 /* ReverseString.m in Sources */,
 				A8C6E6211F658F8D00030008 /* LoadClassA.m in Sources */,
 				EF5853571F4D8CBF0080C6DB /* ViewController.m in Sources */,
 				EF5853AA1F4F0FFD0080C6DB /* GCDViewController.m in Sources */,
 				EF5853881F4D8E620080C6DB /* StrongWeakDanceViewController.m in Sources */,
+				A8237C4F1F69385B00D7527B /* OtherViewController.m in Sources */,
 				EF5853A31F4EB5410080C6DB /* JHCollectionViewCell.m in Sources */,
+				A8237C531F693E5C00D7527B /* JHMD5Encrypt.m in Sources */,
 				EF58539B1F4EAFC70080C6DB /* LifeView.m in Sources */,
 				EF5853BE1F512C800080C6DB /* LinkListViewController.m in Sources */,
 				A8C6E6271F65907800030008 /* LoadClassA+LoadClassACategory.m in Sources */,
+				A8237C561F69430D00D7527B /* JHAESEncrypt.m in Sources */,
+				A8237C4C1F6934C500D7527B /* JHEncryptionViewController.m in Sources */,
+				A8C6E6421F66D63B00030008 /* ExchangeNumWithoutTemp.m in Sources */,
 				EF5853541F4D8CBF0080C6DB /* AppDelegate.m in Sources */,
 				A8C6E62A1F65951700030008 /* LoadBaseClass.m in Sources */,
+				A8C6E63F1F66D09800030008 /* MethodChainingViewController.m in Sources */,
+				A8C6E6391F66C85800030008 /* NSObject+Caculate.m in Sources */,
 				EF5853AE1F4F14530080C6DB /* AlgorithmViewController.m in Sources */,
 				EF5853511F4D8CBF0080C6DB /* main.m in Sources */,
+				A8C6E6481F66D90600030008 /* SortDemo.m in Sources */,
 				A8C6E61A1F6564DA00030008 /* Person.m in Sources */,
+				A8237C5C1F696C1200D7527B /* JHBase64.m in Sources */,
 				A8C6E62F1F65969E00030008 /* InitializeBaseClass.m in Sources */,
 				A8C6E6171F654E8700030008 /* JHCopyViewController.m in Sources */,
 				EF5853951F4EAC740080C6DB /* VCLifeViewController.m in Sources */,
 				A8C6E61D1F6566A600030008 /* Person1.m in Sources */,
+				A8C6E63C1F66C88B00030008 /* CaculateManager.m in Sources */,
 				EF58539F1F4EAFE40080C6DB /* VCLifeXibViewController.m in Sources */,
 				A8C6E6321F6596FF00030008 /* InitializeClassA.m in Sources */,
 				A8C6E6241F658F9A00030008 /* LoadClassB.m in Sources */,
