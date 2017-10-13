@@ -84,9 +84,13 @@
     NSArray *array = @[p1, p2];
     
     //使用该方法的前提是被拷贝对象实现了copyWithZone 方法
-    NSMutableArray *trueCopyArray = [[NSMutableArray alloc] initWithArray:array copyItems:YES];
+    NSMutableArray *trueDeepCopyArray1 = [[NSMutableArray alloc] initWithArray:array copyItems:YES];
     
-    NSLog(@"trueDeepObjectCopy机制 %@ - %@ \n array = %p \n trueCopyArray = %p \n", array, trueCopyArray, array, trueCopyArray);
+    //过对对象归档解档来实现,使用该方法的前提是实现了NSCoding协议
+    NSArray* trueDeepCopyArray2 = [NSKeyedUnarchiver unarchiveObjectWithData:[NSKeyedArchiver archivedDataWithRootObject:array]];
+    
+    NSLog(@"trueDeepObjectCopy机制1 %@ - %@ \n array = %p \n trueCopyArray1 = %p \n", array, trueDeepCopyArray1, array, trueDeepCopyArray1);
+    NSLog(@"trueDeepObjectCopy机制2 %@ - %@ \n array = %p \n trueCopyArray2 = %p \n", array, trueDeepCopyArray2, array, trueDeepCopyArray2);
 }
 
 - (void)didReceiveMemoryWarning {
